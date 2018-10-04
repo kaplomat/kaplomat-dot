@@ -19,7 +19,14 @@ Plug 'tpope/vim-commentary'
 "https://github.com/scrooloose/nerdtree
 Plug 'scrooloose/nerdtree'
 
-"To enable C-n to toggle NERDtree (but you knew that..?)
-map <C-n> :NERDTreeToggle<CR>
+"Tag list
+Plug 'vim-scripts/taglist.vim'
 
 call plug#end()
+
+"I want my taglist to be shown on the right side of the screen!
+let Tlist_Use_Right_Window = 1
+
+"C-n shall enable file tree, C-b shall enable taglist
+map <C-n> :NERDTreeToggle<CR>
+map <C-b> :TlistToggle<CR>
