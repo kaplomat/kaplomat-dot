@@ -6,6 +6,10 @@ set mouse=a
 set exrc
 set secure
 
+"Set default formatting rules to the most common in my work environment
+set expandtab softtabstop=4
+set shiftwidth=4
+
 "Please run .local/setup/vim.sh script before actually using Vim!
 call plug#begin()
 
