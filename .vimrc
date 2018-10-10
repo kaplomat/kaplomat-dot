@@ -1,6 +1,11 @@
 "To enable mouse support
 set mouse=a
 
+"Allowing to execute .vimrc's in subdirectories, in order to,
+"dunno, set project-specific styles.
+set exrc
+set secure
+
 "Please run .local/setup/vim.sh script before actually using Vim!
 call plug#begin()
 
