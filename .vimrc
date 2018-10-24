@@ -10,6 +10,9 @@ set secure
 set expandtab softtabstop=4
 set shiftwidth=4
 
+"To remove a buffer when it's hidden
+set bufhidden=delete
+
 "Please run .local/setup/vim.sh script before actually using Vim!
 call plug#begin()
 
