@@ -45,3 +45,8 @@ let Tlist_Use_Right_Window = 1
 "C-n shall enable file tree, C-b shall enable taglist
 map <C-n> :NERDTreeToggle<CR>
 map <C-b> :TlistToggle<CR>
+
+"C-w shall save the buffer in insert mode
+"C-e will save the buffer and exit insert mode
+imap <C-w> <C-O>:w<CR>
+imap <C-e> <Esc>:w<CR>
