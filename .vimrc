@@ -34,6 +34,9 @@ Plug 'scrooloose/nerdtree'
 "Tag list
 Plug 'vim-scripts/taglist.vim'
 
+"XML edit helper
+Plug 'sukima/xmledit'
+
 call plug#end()
 
 "I want my taglist to be shown on the right side of the screen!
